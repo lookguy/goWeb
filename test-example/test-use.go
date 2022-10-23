@@ -1,0 +1,12 @@
+package example
+
+//  获取整数数组最小值
+func Min(arr []int) (min int){
+	min = arr[0]
+	for _,v := range arr{
+		if v < min {
+			min = v
+		}
+	}
+	return min
+}
