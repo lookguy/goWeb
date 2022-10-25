@@ -2,6 +2,8 @@ package main
 
 import(
 	"net/http"
+	"fmt"
+	"io/ioutil"
 )
 
 type Refer struct{
